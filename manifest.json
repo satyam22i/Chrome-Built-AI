@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Smart News Companion",
+  "version": "1.0",
+  "description": "Summarize articles and get AI-generated insights.",
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
